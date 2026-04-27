@@ -1,5 +1,5 @@
 {% set name = "hanta" %}
-{% set version = "1.1.2" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hanta-{{ version }}.tar.gz
-  sha256: adddf6a1295df6c379800519ff67204dfe5cbcb875c66528b8432b72a3f2c1c4
+  sha256: 9f5ad412626dc9d8369073e5d744f90151adc56efd473335ddbaa8a4d48928ee
 
 build:
   noarch: python
